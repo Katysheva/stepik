@@ -1,0 +1,63 @@
+.navbar__wrapper {
+  background: #222;
+  z-index: 16;
+  position: fixed;
+  transform: translateZ(0);
+  width: 100%;
+  top: 0;
+
+  min-height: 50px;
+}
+
+.stepic-application {
+  padding-top: 0;
+  min-height: 100vh;
+}
+
+.stepic-application
+.stepic-application__inner {
+  position: relative;
+  padding-top: 48px;
+}
+
+.rating-stars {
+  direction: ltr;
+  unicode-bidi: bidi-override;
+  text-align: center;
+
+  .colored-star {
+    display: inline-block;
+    position: relative;
+    color: gold;
+  }
+
+  .uncolored-star {
+    display: inline-block;
+    position: relative;
+    color: #888;
+  }
+
+  .partial-star-bg {
+    position: relative;
+    display: inline-block;
+  }
+
+  .partial-star-fill {
+    color: gold;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+  }
+}
+
+
+.st-link_style_dimmed {
+  text-decoration: underline;
+  color: #888;
+}
+
+.st-h2 {
+  font-size: 22px;
+  margin-top: 10px;
+  font-weight: normal;
+}

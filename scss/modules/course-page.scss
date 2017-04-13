@@ -1,0 +1,82 @@
+.course-page {
+  word-wrap: break-word;
+  font-size: 14px;
+
+  &_fixed-btn {
+    padding-bottom: 70px;
+  }
+}
+
+.course-page__rating {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.course-page__reviews-link {
+  align-self: center;
+  text-align: right;
+  margin-left: auto;
+}
+
+.course-page__selfpaced-note {
+  padding-top: 30px;
+
+  .svg-icon {
+    color: #3E8AF8;
+    margin-right: 10px;
+
+    svg{
+      width: 28px;
+      height: 28px;
+    }
+  }
+}
+
+.course-page__description {
+  border-bottom: 1px solid rgba(#000, .2);
+  border-top: 1px solid rgba(#000, .2);
+  padding-bottom: 45px;
+}
+
+.course-page__teachers {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.course-page__teacher-card {
+  padding: 25px 0 0;
+
+  p {
+    margin-top: 1.25em;
+  }
+}
+.course-page__join-btn-wrapper {
+  padding: 1em 1rem;
+
+  background-color: #fff;
+  width: 100%;
+
+  &_fixed {
+    border-top: 1px solid #DEDEDE;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  &_no-pads {
+    padding: 1em 0;
+  }
+}
+
+.course-page__join-btn {
+  display: block;
+  padding: 13px;
+
+  background-color: #62CE61;
+
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}

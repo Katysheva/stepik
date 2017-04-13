@@ -1,0 +1,31 @@
+.course-menu {
+  font-size: 1em;
+
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+
+  overflow-x: scroll;
+  white-space: nowrap;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.course-menu__list {
+  display: flex;
+  margin-bottom: 0;
+}
+
+.course-menu__list li {
+  list-style: none;
+  padding: 0 5%;
+}
+
+.course-menu__link {
+  display: block;
+  padding: 1em 0;
+
+  text-decoration: none;
+  color: #000;
+}

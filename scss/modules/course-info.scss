@@ -1,0 +1,33 @@
+.course-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  video {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.course-info__about-course {
+  padding-top: 30px;
+}
+
+.course-info__rating {
+  margin: 0;
+
+  align-items: center;
+
+  .rating-stars {
+    font-size: 1.3em;
+  }
+}
+
+.course-info__details {
+  padding-top: 35px;
+}
+
+.course-index__description {
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(#000, .2);
+}

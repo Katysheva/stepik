@@ -1,0 +1,83 @@
+.course-preview {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  background-image: linear-gradient(to top, #f4f8ff, #fff);
+
+  text-align: center;
+}
+
+.course-preview__cover {
+  margin: 0 auto;
+  max-width: 160px;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.course-preview__title {
+  font-weight: 300;
+
+  font-size: 1.72em;
+  padding-top: 1em;
+}
+
+.course-preview__availability {
+  color: #999;
+
+  &::before {
+    content: '';
+    width: 13px;
+    height: 16px;
+    margin-right: .7em;
+    display: inline-block;
+    vertical-align: text-top;
+  }
+
+  &_private {
+    &::before {
+      background-image: url('../img/padlock.svg');
+      background-size: 13px 16px;
+    }
+  }
+}
+
+.course-preview__progress {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  color: rgba(#000, .5);
+}
+
+.course-preview__progress-bar {
+  flex-basis: 80%;
+  padding-right: 5px;
+  margin-bottom: 8px;
+
+  progress {
+    border:0;
+    width: 100%;
+    height: 6px;
+    border-radius: 0;
+    background: rgba(#0a0a0a, .1);
+
+    &::-webkit-progress-bar {
+      border:0;
+      width: 100%;
+      height: 6px;
+      border-radius: 0;
+      background: rgba(#0a0a0a, .1);
+    }
+
+    &::-webkit-progress-value {
+      background: $accent-color;
+    }
+
+    &::-moz-progress-bar {
+      background: $accent-color;
+    }
+  }
+}

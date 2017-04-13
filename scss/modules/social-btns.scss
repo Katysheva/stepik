@@ -1,0 +1,27 @@
+.social-btns {
+  display: flex;
+
+  list-style-type: none;
+}
+
+.social-btns__item {
+  display: block;
+  width: 30px;
+  height: 30px;
+
+  margin-right: 5px;
+
+  background-size: 30px 30px;
+
+  &_fb {
+    background-image: url('../img/facebook-logo.svg');
+  }
+
+  &_tw {
+    background-image: url('../img/twitter-logo.svg');
+  }
+
+  &_vk{
+    background-image: url('../img/vkontakte-logo.svg');
+  }
+}

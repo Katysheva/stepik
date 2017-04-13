@@ -1,0 +1,14 @@
+.def-list {
+  padding: 0;
+}
+
+.def-list__row {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.def-list__title {
+  color: #999;
+  font-weight: 400;
+}

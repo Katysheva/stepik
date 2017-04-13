@@ -1,0 +1,26 @@
+.bookmark-text {
+  display: flex;
+  align-items: center;
+
+  span {
+    max-width: 90%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+  }
+
+  &::before {
+    content: '';
+    width: 2em;
+    height: 2em;
+
+    // flex-basis: 20px;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    background-image: url('../img/bookmark-tag.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
